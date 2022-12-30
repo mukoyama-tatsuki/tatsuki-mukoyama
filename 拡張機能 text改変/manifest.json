@@ -1,0 +1,13 @@
+{
+    "name": "Sample Chrome Extension",
+    "description": "text change.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": ["https://www3.nhk.or.jp/*"],
+        "js": ["content_script.js"]
+      }
+    ]
+  }
+  

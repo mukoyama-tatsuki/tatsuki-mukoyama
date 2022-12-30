@@ -1,0 +1,13 @@
+{
+    "name": "Chrome Extension momoko",
+    "description": "momoko",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": ["https://janelin612.github.io/*"],
+        "js": ["content_script.js"]
+      }
+    ]
+  }
+  
